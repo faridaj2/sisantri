@@ -9,9 +9,8 @@
             </svg>
           </label>
           <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Homepage</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#berita">Berita</a></li>
           </ul>
         </div>
       </div>
@@ -39,21 +38,23 @@
     <!-- End Navbar -->
     <!-- Start Image Hero -->
     <div class="">
-
-      <div class="hero min-h-screen" style="background-image: url(/image/hero.JPG);">
+      <div class="hero min-h-screen" style="background-image: url('/image/hero.JPG')">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-5 text-2xl font-bold">Selamat datang di Aplikasi Sisantri Darussalam Blokagung 2!</h1>
-            <p class="mb-5 text-sm">Kami sangat senang Anda bergabung dengan kami. Aplikasi ini dirancang untuk membantu
+            <h1 class="mb-5 text-2xl font-bold">
+              Selamat datang di Aplikasi Sisantri Darussalam Blokagung 2!
+            </h1>
+            <p class="mb-5 text-sm">
+              Kami sangat senang Anda bergabung dengan kami. Aplikasi ini dirancang untuk membantu
               Anda <br />
-              dalam berbagai aktivitas dan informasi terkait Sisantri Darussalam Blokagung 2. Silakan jelajahi fitur-fitur
-              yang tersedia dan jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau memerlukan bantuan.
+              dalam berbagai aktivitas dan informasi terkait Sisantri Darussalam Blokagung 2.
+              Silakan jelajahi fitur-fitur yang tersedia dan jangan ragu untuk menghubungi kami jika
+              Anda memiliki pertanyaan atau memerlukan bantuan.
               <br />
-              Semoga aplikasi ini dapat membantu Anda dengan baik dan memberikan manfaat yang berarti. Terima kasih atas
-              partisipasi Anda!
-
-              Selamat menggunakan Aplikasi Sisantri Darussalam Blokagung 2!
+              Semoga aplikasi ini dapat membantu Anda dengan baik dan memberikan manfaat yang
+              berarti. Terima kasih atas partisipasi Anda! Selamat menggunakan Aplikasi Sisantri
+              Darussalam Blokagung 2!
             </p>
           </div>
         </div>
@@ -62,7 +63,7 @@
     <!-- End Hero Image -->
 
     <!-- Start Menu Icon -->
-    <div class="grid grid-cols-4 md:grid-cols-5 gap-5 my-10 container">
+    <div class="grid grid-cols-4 md:grid-cols-5 gap-5 my-10 container" id="menu">
       <div class="flex flex-col cursor-pointer">
         <div class="flex">
           <div
@@ -129,24 +130,28 @@
     </div>
     <!-- End Menu -->
     <!-- Start Berita -->
-    <div class="container my-20">
+    <div class="container my-20" id="berita">
       <h1 class="text-primary font-bold mx-3 text-xl my-2">Berita</h1>
       <div>
         <div class="card card-side bg-base-100 shadow-my mx-3 md:mx-0">
-          <figure><img src="/image/hero.JPG" class="w-48 max-h-48 object-cover" alt="News Images" />
+          <figure>
+            <img src="/image/login.png" class="w-48 max-h-48 object-cover" alt="News Images" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title">Santri Darussalam Blokagung 2 Mengadakan Kegiatan Kreatif Bersama!</h2>
-            <p class="truncate overflow-hidden text-xs">Santri Darussalam Blokagung 2, sebuah pesantren yang terletak di
-              wilayah
-              yang indah,baru-baru ini</p>
+            <div class="card-title">
+              <p class="">Santri Darussalam Blokagung 2 Mengadakan Kegiatan Kreatif Bersama!</p>
+            </div>
+            <p class="text-xs">
+              Santri Darussalam Blokagung 2, sebuah pesantren yang terletak di wilayah yang
+              indah,baru-baru ini
+            </p>
           </div>
         </div>
       </div>
     </div>
     <!-- End Berita -->
     <!-- Start Footer -->
-    <footer class=" bg-primary">
+    <footer class="bg-primary">
       <div class="container">
         <span class="text-white text-xs font-thin text-center block">2023 Darussalam Blokagung 2</span>
       </div>
@@ -155,7 +160,13 @@
 </template>
 
 <script setup lang="ts">
-import { AkMoney, FaMoneyBills, CaWarningFilled, BxSolidTrophy, AnFilledFileImage, MdContactPhone, CaTableOfContents } from "@kalimahapps/vue-icons";
+import {
+  AkMoney,
+  FaMoneyBills,
+  CaWarningFilled,
+  BxSolidTrophy,
+  AnFilledFileImage,
+  MdContactPhone,
+  CaTableOfContents
+} from '@kalimahapps/vue-icons'
 </script>
-
-
