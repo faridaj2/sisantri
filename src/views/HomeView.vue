@@ -126,7 +126,7 @@
     <div class="container">
       <h1 class="text-primary text-xl font-bold mx-6 md:mx-0">Pemberitahuan</h1>
       <div class="md:mx-0 mx-6 flex flex-col md:flex-row gap-3">
-        <div class="card w-96 bg-base-100 shadow-xl rounded-md">
+        <div class="card max-w-sm bg-base-100 shadow-xl rounded-md">
           <div class="card-body">
             <h2 class="card-title w-full truncate">Libur Maulid 2023</h2>
             <p class="w-full line-clap-2">If a dog chews shoes whose shoes does he choose?</p>
@@ -135,7 +135,7 @@
             </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-xl rounded-md">
+        <div class="card max-w-sm bg-base-100 shadow-xl rounded-md">
           <div class="card-body">
             <h2 class="card-title w-full truncate">Libur Maulid 2023</h2>
             <p class="w-full line-clap-2">If a dog chews shoes whose shoes does he choose?</p>
@@ -151,7 +151,7 @@
     <!-- Start Berita -->
     <div class="container my-20" id="berita">
       <h1 class="text-primary font-bold text-xl my-2 mx-6">Berita</h1>
-      <div class="flex gap-3 flex-row flex-nowrap overflow-y-scroll py-4 scroll-bar">
+      <div class="flex gap-3 flex-row flex-nowrap overflow-y-scroll py-4 scroll-bar px-6">
         <div class="card w-96 bg-base-100 shadow-my mx-auto md:mx-0">
           <figure class="px-10 pt-10">
             <img src="/image/hero.jpg" alt="Shoes" class="rounded-xl" />
