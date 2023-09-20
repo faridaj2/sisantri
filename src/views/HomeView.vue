@@ -37,24 +37,17 @@
     </div>
     <!-- End Navbar -->
     <!-- Start Image Hero -->
-    <div class="">
-      <div class="hero min-h-screen" style="background-image: url('/image/hero.JPG')">
+    <div class="mx-4 rounded-xl overflow-hidden shadow-my">
+      <div class="hero h-40" style="background-image: url('/image/hero.jpg')">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-5 text-2xl font-bold">
-              Selamat datang di Aplikasi Sisantri Darussalam Blokagung 2!
+            <h1 class="mb-5 text-2xl font-bold text-white">
+              Selamat Datang!
             </h1>
             <p class="mb-5 text-sm">
               Kami sangat senang Anda bergabung dengan kami. Aplikasi ini dirancang untuk membantu
               Anda <br />
-              dalam berbagai aktivitas dan informasi terkait Sisantri Darussalam Blokagung 2.
-              Silakan jelajahi fitur-fitur yang tersedia dan jangan ragu untuk menghubungi kami jika
-              Anda memiliki pertanyaan atau memerlukan bantuan.
-              <br />
-              Semoga aplikasi ini dapat membantu Anda dengan baik dan memberikan manfaat yang
-              berarti. Terima kasih atas partisipasi Anda! Selamat menggunakan Aplikasi Sisantri
-              Darussalam Blokagung 2!
             </p>
           </div>
         </div>
@@ -63,7 +56,7 @@
     <!-- End Hero Image -->
 
     <!-- Start Menu Icon -->
-    <div class="grid grid-cols-4 md:grid-cols-5 gap-5 my-10 container" id="menu">
+    <div class="grid grid-cols-4 md:grid-cols-5 gap-5 my-14 container" id="menu">
       <div class="flex flex-col cursor-pointer">
         <div class="flex">
           <div
@@ -129,22 +122,34 @@
       </div>
     </div>
     <!-- End Menu -->
+    <!-- Start Pemberitahuan -->
+    <div class="my-10 container mx-6">
+      <h1 class="text-primary text-xl font-bold">Pemberitahuan</h1>
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title w-full truncate">Libur Maulid 2023</h2>
+          <p class="w-full line-clap-2">If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-start">
+            <button class="text-xs text-blue-500 underline">Baca Selengkapnya!...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Pemberitahuan -->
     <!-- Start Berita -->
     <div class="container my-20" id="berita">
-      <h1 class="text-primary font-bold mx-3 text-xl my-2">Berita</h1>
+      <h1 class="text-primary font-bold mx-3 text-xl my-2 mx-6">Berita</h1>
       <div>
-        <div class="card card-side bg-base-100 shadow-my mx-3 md:mx-0">
-          <figure>
-            <img src="/image/login.png" class="w-48 max-h-48 object-cover" alt="News Images" />
+        <div class="card w-96 bg-base-100 shadow-my mx-auto">
+          <figure class="px-10 pt-10">
+            <img src="/image/hero.jpg" alt="Shoes" class="rounded-xl" />
           </figure>
-          <div class="card-body">
-            <div class="card-title">
-              <p class="">Santri Darussalam Blokagung 2 Mengadakan Kegiatan Kreatif Bersama!</p>
-            </div>
-            <p class="text-xs">
-              Santri Darussalam Blokagung 2, sebuah pesantren yang terletak di wilayah yang
-              indah,baru-baru ini
-            </p>
+          <div class="card-body items-center text-left">
+            <h2 class="text-left card-title truncate w-full">Shoes!</h2>
+            <p class="line-clamp-2 w-full">If a dog chews shoes whose shoes does he choose? sadadsfsfaf
+              sdafdsafasfasfgigbijgsadugsaf</p>
+            <a href="" class="text-xs underline text-blue-500 text-left w-full">Baca Selengkapnya!</a>
           </div>
         </div>
       </div>

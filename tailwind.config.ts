@@ -1,4 +1,3 @@
-// tailwind.config.js
 module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
@@ -11,9 +10,9 @@ module.exports = {
     },
 
     extend: {
-        boxShadow: {
-          'my': 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;'  
-        },
+      boxShadow: {
+        'my': 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;'
+      },
     },
   },
   variants: {},
@@ -44,6 +43,7 @@ module.exports = {
     ],
   },
   plugins: [
-    require("daisyui")
+    require("daisyui"),
+    require('@tailwindcss/line-clamp')
   ],
 }
