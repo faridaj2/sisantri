@@ -150,7 +150,7 @@
     <!-- End Pemberitahuan -->
     <!-- Start Berita -->
     <div class="container my-20" id="berita">
-      <h1 class="text-primary font-bold mx-3 text-xl my-2 mx-6">Berita</h1>
+      <h1 class="text-primary font-bold text-xl my-2 mx-6">Berita</h1>
       <div class="flex gap-3 flex-row flex-nowrap overflow-y-scroll py-4 scroll-bar">
         <div class="card w-96 bg-base-100 shadow-my mx-auto md:mx-0">
           <figure class="px-10 pt-10">
